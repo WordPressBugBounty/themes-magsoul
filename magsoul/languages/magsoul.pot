@@ -1,0 +1,2119 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: MagSoul\n"
+"POT-Creation-Date: 2025-06-25 17:39+0530\n"
+"PO-Revision-Date: 2025-06-25 17:39+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:27
+msgid "Oops! That page can not be found."
+msgstr ""
+
+#: 404.php:34
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#. translators: 1: title.
+#: comments.php:38
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:44
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr ""
+
+#. translators: %s: Year and site name.
+#: footer.php:84
+#, php-format
+msgid "Copyright &copy; %s"
+msgstr ""
+
+#: footer.php:84
+msgid "Y"
+msgstr ""
+
+#. translators: %s: Theme author.
+#: footer.php:86
+#, php-format
+msgid "Design by %s"
+msgstr ""
+
+#: footer.php:102
+msgid "Scroll to Top"
+msgstr ""
+
+#: framework/customizer/customizer.php:27
+msgid "Theme Options"
+msgstr ""
+
+#: framework/customizer/customizer.php:43
+msgid ""
+"To change Background Color, need to remove background image first:- go to "
+"Appearance : Customize : Theme Options : Background Image"
+msgstr ""
+
+#: framework/customizer/settings/extra-options.php:19
+msgid "Other Options"
+msgstr ""
+
+#: framework/customizer/settings/extra-options.php:29
+msgid "Enable Gutenberg Widget Block Editor"
+msgstr ""
+
+#: framework/customizer/settings/extra-options.php:35
+msgid "Disable WP Lazy Load Feature"
+msgstr ""
+
+#: framework/customizer/settings/extra-options.php:41
+msgid "Disable Site Loading Animation"
+msgstr ""
+
+#: framework/customizer/settings/extra-options.php:47
+msgid "Disable FitVids.JS"
+msgstr ""
+
+#: framework/customizer/settings/extra-options.php:48
+msgid ""
+"You can disable fitvids.js script if you are not using videos on your "
+"website or if you do not want fluid width videos in your post content."
+msgstr ""
+
+#: framework/customizer/settings/footer-options.php:19
+msgid "Footer Options"
+msgstr ""
+
+#: framework/customizer/settings/footer-options.php:28
+msgid "Footer copyright notice"
+msgstr ""
+
+#: framework/customizer/settings/footer-options.php:34
+msgid "Hide Footer Widgets"
+msgstr ""
+
+#: framework/customizer/settings/footer-options.php:40
+msgid "Disable Back to Top Button"
+msgstr ""
+
+#: framework/customizer/settings/getting-started-options.php:13
+msgid "Getting Started"
+msgstr ""
+
+#: framework/customizer/settings/getting-started-options.php:13
+msgid ""
+"Thanks for your interest in MagSoul! If you have any questions or run into "
+"any trouble, please visit us the following links. We will get you fixed up!"
+msgstr ""
+
+#: framework/customizer/settings/getting-started-options.php:17
+msgid "Documentation"
+msgstr ""
+
+#: framework/customizer/settings/getting-started-options.php:21
+msgid "Contact Us"
+msgstr ""
+
+#: framework/customizer/settings/header-options.php:18
+msgid "Header Options"
+msgstr ""
+
+#: framework/customizer/settings/header-options.php:29
+msgid "Hide Tagline"
+msgstr ""
+
+#: framework/customizer/settings/header-options.php:30
+msgid "This option will hide the tagline from all screen sizes."
+msgstr ""
+
+#: framework/customizer/settings/header-options.php:36
+msgid "Hide Tagline from Smaller Screens"
+msgstr ""
+
+#: framework/customizer/settings/header-options.php:37
+msgid ""
+"This option has no effect if you have checked the option: \"Hide Tagline\""
+msgstr ""
+
+#: framework/customizer/settings/header-options.php:43
+msgid "Disable Sticky Feature from Header"
+msgstr ""
+
+#: framework/customizer/settings/header-options.php:49
+msgid "Enable Sticky Feature on Header for Small Screen Sizes"
+msgstr ""
+
+#: framework/customizer/settings/header-options.php:55
+msgid "Hide Header Content"
+msgstr ""
+
+#: framework/customizer/settings/header-options.php:61
+msgid "Header Padding"
+msgstr ""
+
+#: framework/customizer/settings/header-options.php:62
+msgid "Enter the padding value for header content. Default is 10px"
+msgstr ""
+
+#: framework/customizer/settings/header-options.php:68
+msgid "Hide Header Search Button"
+msgstr ""
+
+#: framework/customizer/settings/header-options.php:69
+msgid ""
+"If you have checked the option \"Disable Primary Menu (Header Menu),\" this "
+"option has no effect. Also, if you select the \"Logo\" value for the "
+"\"Header Layout\" option, this option has no effect."
+msgstr ""
+
+#: framework/customizer/settings/header-options.php:75
+msgid "Header Search Button Text"
+msgstr ""
+
+#: framework/customizer/settings/header-options.php:127
+msgid "Logo Location"
+msgstr ""
+
+#: framework/customizer/settings/header-options.php:128
+msgid ""
+"Select how you want to display the site logo with site title and tagline."
+msgstr ""
+
+#: framework/customizer/settings/header-options.php:131
+msgid "Before Site Title and Tagline"
+msgstr ""
+
+#: framework/customizer/settings/header-options.php:132
+msgid "Above Site Title and Tagline"
+msgstr ""
+
+#: framework/customizer/settings/header-options.php:139
+msgid "Do not Limit the Logo Width"
+msgstr ""
+
+#: framework/customizer/settings/header-options.php:146
+msgid "Max Width of the Logo"
+msgstr ""
+
+#: framework/customizer/settings/header-options.php:147
+msgid ""
+"Enter the max-width value for the logo. Default value is \"320px\". Note: "
+"This option has no effect if you check the \"Do not Limit the Logo Width\" "
+"option."
+msgstr ""
+
+#: framework/customizer/settings/header-options.php:182
+msgid "Hide Header Image from Everywhere"
+msgstr ""
+
+#: framework/customizer/settings/header-options.php:188
+msgid "Remove Link from Header Image"
+msgstr ""
+
+#: framework/customizer/settings/header-options.php:194
+msgid "Hide both Title and Description from Header Image"
+msgstr ""
+
+#: framework/customizer/settings/header-options.php:195
+msgid ""
+"If you checked this option, header image title and description will be "
+"hidden from all screen sizes."
+msgstr ""
+
+#: framework/customizer/settings/header-options.php:201
+msgid "Hide Title from Header Image"
+msgstr ""
+
+#: framework/customizer/settings/header-options.php:202
+msgid ""
+"If you checked this option, header image title will be hidden from all "
+"screen sizes. This option has no effect if you have checked the option: "
+"\"Hide both Title and Description from Header Image\""
+msgstr ""
+
+#: framework/customizer/settings/header-options.php:208
+msgid "Hide Description from Header Image"
+msgstr ""
+
+#: framework/customizer/settings/header-options.php:209
+msgid ""
+"If you checked this option, header image description will be hidden from all "
+"screen sizes. This option has no effect if you have checked the option: "
+"\"Hide both Title and Description from Header Image\""
+msgstr ""
+
+#: framework/customizer/settings/header-options.php:215
+msgid "Show Header Image Title on Smaller Screens"
+msgstr ""
+
+#: framework/customizer/settings/header-options.php:216
+msgid ""
+"This option has no effect if you have checked any of these options: \"Hide "
+"both Title and Description from Header Image\", \"Hide Title from Header "
+"Image\""
+msgstr ""
+
+#: framework/customizer/settings/header-options.php:222
+msgid "Show Header Image Description on Smaller Screens"
+msgstr ""
+
+#: framework/customizer/settings/header-options.php:223
+msgid ""
+"This option has no effect if you have checked any of these options: \"Hide "
+"both Title and Description from Header Image\", \"Hide Description from "
+"Header Image\""
+msgstr ""
+
+#: framework/customizer/settings/header-options.php:229
+msgid "Add Custom Title/Custom Description to Header Image"
+msgstr ""
+
+#: framework/customizer/settings/header-options.php:235
+msgid "Header Image Custom Title"
+msgstr ""
+
+#: framework/customizer/settings/header-options.php:241
+msgid "Header Image Custom Description"
+msgstr ""
+
+#: framework/customizer/settings/header-options.php:247
+msgid "Header Image Destination URL"
+msgstr ""
+
+#: framework/customizer/settings/header-options.php:248
+msgid ""
+"Enter the URL a visitor should go when he/she click on the header image. If "
+"you did not enter a URL below, header image will be linked to the homepage "
+"of your website."
+msgstr ""
+
+#: framework/customizer/settings/header-options.php:254
+msgid "Add a Minimum Height to Header Image on Smaller Screens"
+msgstr ""
+
+#: framework/customizer/settings/header-options.php:260
+msgid "Header Image Minimum Height on Smaller Screens"
+msgstr ""
+
+#: framework/customizer/settings/header-options.php:261
+msgid ""
+"Enter the minimum height value for header image height. Default is \"200px"
+"\". Note: This option has no effect until you check \"Add a Minimum Height "
+"to Header Image on Smaller Screens\" option."
+msgstr ""
+
+#: framework/customizer/settings/header-options.php:267
+msgid "Header Image Alt Text"
+msgstr ""
+
+#: framework/customizer/settings/menu-options.php:19
+msgid "Menu Options"
+msgstr ""
+
+#: framework/customizer/settings/menu-options.php:29
+msgid "Primary Menu (Header Menu) Mobile Text"
+msgstr ""
+
+#: framework/customizer/settings/menu-options.php:35
+msgid "Disable Primary Menu (Header Menu)"
+msgstr ""
+
+#: framework/customizer/settings/menu-options.php:39
+#: framework/methods/menu-functions.php:27
+msgid "Menu"
+msgstr ""
+
+#: framework/customizer/settings/menu-options.php:41
+msgid "Secondary Menu Mobile Text"
+msgstr ""
+
+#: framework/customizer/settings/menu-options.php:47
+msgid "Disable Secondary Menu"
+msgstr ""
+
+#: framework/customizer/settings/menu-options.php:53
+msgid "Select Secondary Menu Location"
+msgstr ""
+
+#: framework/customizer/settings/menu-options.php:54
+msgid "Select where you want to display secondary menu."
+msgstr ""
+
+#: framework/customizer/settings/menu-options.php:57
+#: framework/customizer/settings/sanitize-callbacks.php:66
+msgid "Before Header"
+msgstr ""
+
+#: framework/customizer/settings/menu-options.php:58
+#: framework/customizer/settings/sanitize-callbacks.php:67
+msgid "After Header"
+msgstr ""
+
+#: framework/customizer/settings/menu-options.php:59
+#: framework/customizer/settings/sanitize-callbacks.php:68
+msgid "Before Footer"
+msgstr ""
+
+#: framework/customizer/settings/menu-options.php:60
+#: framework/customizer/settings/sanitize-callbacks.php:69
+msgid "After Footer"
+msgstr ""
+
+#: framework/customizer/settings/menu-options.php:66
+msgid "Do not Center Secondary Menu"
+msgstr ""
+
+#: framework/customizer/settings/navigation-options.php:19
+msgid "Post/Posts Navigation Options"
+msgstr ""
+
+#: framework/customizer/settings/navigation-options.php:29
+msgid "Hide Post Navigation from Full Posts"
+msgstr ""
+
+#: framework/customizer/settings/navigation-options.php:35
+msgid "Hide Posts Navigation from Home/Archive/Search Pages"
+msgstr ""
+
+#: framework/customizer/settings/navigation-options.php:41
+msgid "Posts Navigation Type"
+msgstr ""
+
+#: framework/customizer/settings/navigation-options.php:42
+msgid ""
+"Select posts navigation type you need. If you activate WP-PageNavi plugin, "
+"this navigation will be replaced by WP-PageNavi navigation."
+msgstr ""
+
+#: framework/customizer/settings/navigation-options.php:45
+msgid "Normal Navigation"
+msgstr ""
+
+#: framework/customizer/settings/navigation-options.php:46
+msgid "Numbered Navigation"
+msgstr ""
+
+#: framework/customizer/settings/posts-summaries-options.php:19
+msgid "Posts Summaries Options"
+msgstr ""
+
+#: framework/customizer/settings/posts-summaries-options.php:20
+msgid ""
+"To display your latest posts as a grid on your homepage, please set the "
+"\"Your homepage displays\" option to \"Your latest posts.\" You can find "
+"this setting in your WordPress Dashboard by navigating to \"Settings\" -> "
+"\"Reading\" -> \"Your homepage displays.\""
+msgstr ""
+
+#: framework/customizer/settings/posts-summaries-options.php:30
+msgid "Hide Blog Posts from Home Page"
+msgstr ""
+
+#: framework/customizer/settings/posts-summaries-options.php:36
+msgid "Hide HomePage Posts Heading"
+msgstr ""
+
+#: framework/customizer/settings/posts-summaries-options.php:40 index.php:34
+msgid "Recent Posts"
+msgstr ""
+
+#: framework/customizer/settings/posts-summaries-options.php:42
+msgid "HomePage Posts Heading"
+msgstr ""
+
+#: framework/customizer/settings/posts-summaries-options.php:48
+msgid "Featured Images Links"
+msgstr ""
+
+#: framework/customizer/settings/posts-summaries-options.php:49
+msgid ""
+"Do you want thumbnails in grid posts summaries to be linked to their posts?"
+msgstr ""
+
+#: framework/customizer/settings/posts-summaries-options.php:52
+#: framework/customizer/settings/singular-page-options.php:33
+#: framework/customizer/settings/singular-post-options.php:33
+msgid "Yes"
+msgstr ""
+
+#: framework/customizer/settings/posts-summaries-options.php:53
+#: framework/customizer/settings/singular-page-options.php:34
+#: framework/customizer/settings/singular-post-options.php:34
+msgid "No"
+msgstr ""
+
+#: framework/customizer/settings/posts-summaries-options.php:59
+msgid "Hide Post Titles from Grid Posts Summaries"
+msgstr ""
+
+#: framework/customizer/settings/posts-summaries-options.php:65
+msgid "Remove Links of Post Titles from Grid Posts Summaries"
+msgstr ""
+
+#: framework/customizer/settings/posts-summaries-options.php:71
+msgid "Disable \"Hover Animation\" from Post Titles in Grid Posts Summaries"
+msgstr ""
+
+#: framework/customizer/settings/posts-summaries-options.php:77
+msgid "Limit the Length of Post Titles in Grid Posts Summaries"
+msgstr ""
+
+#: framework/customizer/settings/posts-summaries-options.php:83
+msgid "Maximum Length of Post Titles in Grid Posts Summaries"
+msgstr ""
+
+#: framework/customizer/settings/posts-summaries-options.php:84
+msgid ""
+"Enter the maximum number of words need to display in grid post titles. "
+"Default is 6 words. This option only work if you have check the option "
+"\"Limit the Length of Post Titles in Grid Posts Summaries\"."
+msgstr ""
+
+#: framework/customizer/settings/posts-summaries-options.php:90
+msgid "Hide Post Author Names from Grid Posts Summaries"
+msgstr ""
+
+#: framework/customizer/settings/posts-summaries-options.php:96
+msgid "Hide Post Dates from Grid Posts Summaries"
+msgstr ""
+
+#: framework/customizer/settings/posts-summaries-options.php:102
+#: framework/customizer/settings/singular-post-options.php:103
+msgid "Post Date Type"
+msgstr ""
+
+#: framework/customizer/settings/posts-summaries-options.php:103
+#: framework/customizer/settings/singular-post-options.php:104
+msgid "You can choose to display published or updated date of your post."
+msgstr ""
+
+#: framework/customizer/settings/posts-summaries-options.php:106
+#: framework/customizer/settings/singular-post-options.php:107
+msgid "Published"
+msgstr ""
+
+#: framework/customizer/settings/posts-summaries-options.php:107
+#: framework/customizer/settings/singular-post-options.php:108
+msgid "Updated"
+msgstr ""
+
+#: framework/customizer/settings/posts-summaries-options.php:113
+msgid "Show Comment Links on Grid Posts Summaries"
+msgstr ""
+
+#: framework/customizer/settings/posts-summaries-options.php:119
+msgid ""
+"Display Comment Texts instead of Comments Counts on Grid Posts Summaries"
+msgstr ""
+
+#: framework/customizer/settings/posts-summaries-options.php:125
+msgid "Post Snippets Length of Grid Posts Summaries"
+msgstr ""
+
+#: framework/customizer/settings/posts-summaries-options.php:126
+msgid ""
+"Enter the number of words need to display in grid post summaries. Default is "
+"17 words."
+msgstr ""
+
+#: framework/customizer/settings/share-buttons-options.php:19
+msgid "Share Buttons Options"
+msgstr ""
+
+#: framework/customizer/settings/share-buttons-options.php:26
+msgid "Hide Share Buttons"
+msgstr ""
+
+#: framework/customizer/settings/share-buttons-options.php:27
+msgid "Hide Share Text"
+msgstr ""
+
+#: framework/customizer/settings/share-buttons-options.php:29
+#: framework/methods/share-buttons-functions.php:12
+msgid "Share:"
+msgstr ""
+
+#: framework/customizer/settings/share-buttons-options.php:31
+msgid "Share Text"
+msgstr ""
+
+#: framework/customizer/settings/share-buttons-options.php:34
+msgid "Hide X Share Button"
+msgstr ""
+
+#: framework/customizer/settings/share-buttons-options.php:35
+msgid "Hide Facebook Share Button"
+msgstr ""
+
+#: framework/customizer/settings/share-buttons-options.php:36
+msgid "Hide Pinterest Share Button"
+msgstr ""
+
+#: framework/customizer/settings/share-buttons-options.php:37
+msgid "Hide Linkedin Share Button"
+msgstr ""
+
+#: framework/customizer/settings/singular-page-options.php:19
+msgid "Page Options"
+msgstr ""
+
+#: framework/customizer/settings/singular-page-options.php:29
+#: framework/customizer/settings/singular-post-options.php:29
+msgid "Featured Image Link"
+msgstr ""
+
+#: framework/customizer/settings/singular-page-options.php:30
+msgid "Do you want the featured image in a page to be linked to its page?"
+msgstr ""
+
+#: framework/customizer/settings/singular-page-options.php:40
+msgid "Hide Featured Image from Single Page"
+msgstr ""
+
+#: framework/customizer/settings/singular-page-options.php:46
+msgid "Move Featured Image to Bottom of Page Title"
+msgstr ""
+
+#: framework/customizer/settings/singular-page-options.php:52
+msgid "Hide Page Header from Single Page"
+msgstr ""
+
+#: framework/customizer/settings/singular-page-options.php:53
+msgid ""
+"If you check this option, it will hide page title and page header meta data "
+"from single page."
+msgstr ""
+
+#: framework/customizer/settings/singular-page-options.php:59
+msgid "Hide Page Title from Single Page"
+msgstr ""
+
+#: framework/customizer/settings/singular-page-options.php:65
+msgid "Remove Link from Single Page Title"
+msgstr ""
+
+#: framework/customizer/settings/singular-page-options.php:71
+msgid "Hide Posted Date from Single Page"
+msgstr ""
+
+#: framework/customizer/settings/singular-page-options.php:77
+msgid "Hide Page Author from Single Page"
+msgstr ""
+
+#: framework/customizer/settings/singular-page-options.php:83
+msgid "Hide Comment Link from Single Page"
+msgstr ""
+
+#: framework/customizer/settings/singular-page-options.php:89
+msgid "Hide Comments/Comment Form from Single Page"
+msgstr ""
+
+#: framework/customizer/settings/singular-page-options.php:95
+msgid "Hide Edit Link from Single Page"
+msgstr ""
+
+#: framework/customizer/settings/singular-page-options.php:101
+msgid "Hide Page Header from Static Homepage"
+msgstr ""
+
+#: framework/customizer/settings/singular-page-options.php:107
+msgid ""
+"Hide Page Meta Data (Page Date, Page Author, Comment Link) from Static "
+"Homepage"
+msgstr ""
+
+#: framework/customizer/settings/singular-post-options.php:19
+msgid "Post Options"
+msgstr ""
+
+#: framework/customizer/settings/singular-post-options.php:30
+msgid ""
+"Do you want the featured image in a single post to be linked to its post?"
+msgstr ""
+
+#: framework/customizer/settings/singular-post-options.php:40
+msgid "Hide Featured Image from Full Post"
+msgstr ""
+
+#: framework/customizer/settings/singular-post-options.php:46
+msgid "Move Featured Image to Bottom of Full Post Title"
+msgstr ""
+
+#: framework/customizer/settings/singular-post-options.php:52
+msgid "Do not Stretch the Featured Image to Full Width"
+msgstr ""
+
+#: framework/customizer/settings/singular-post-options.php:53
+msgid ""
+"When you check this option, the featured image will not automatically "
+"stretch to full width if the width of the featured image is smaller than the "
+"post content."
+msgstr ""
+
+#: framework/customizer/settings/singular-post-options.php:59
+msgid "Hide Breadcrumbs from Full Post"
+msgstr ""
+
+#: framework/customizer/settings/singular-post-options.php:60
+msgid ""
+"Note: You need to install and activate \"Yoast SEO\" plugin to display "
+"breadcrumbs."
+msgstr ""
+
+#: framework/customizer/settings/singular-post-options.php:66
+msgid "Hide Post Header from Full Post"
+msgstr ""
+
+#: framework/customizer/settings/singular-post-options.php:67
+msgid ""
+"If you check this option, it will hide post title and post header meta data "
+"from full post."
+msgstr ""
+
+#: framework/customizer/settings/singular-post-options.php:73
+msgid "Hide Post Title from Full Post"
+msgstr ""
+
+#: framework/customizer/settings/singular-post-options.php:79
+msgid "Remove Link from Full Post Title"
+msgstr ""
+
+#: framework/customizer/settings/singular-post-options.php:85
+msgid "Hide Post Categories from Full Post"
+msgstr ""
+
+#: framework/customizer/settings/singular-post-options.php:91
+msgid "Hide Post Author from Full Post"
+msgstr ""
+
+#: framework/customizer/settings/singular-post-options.php:97
+msgid "Hide Post Date from Full Post"
+msgstr ""
+
+#: framework/customizer/settings/singular-post-options.php:114
+msgid "Hide Comment Link from Full Post"
+msgstr ""
+
+#: framework/customizer/settings/singular-post-options.php:120
+msgid "Hide Comments/Comment Form from Full Post"
+msgstr ""
+
+#: framework/customizer/settings/singular-post-options.php:126
+msgid "Show Post Edit Link"
+msgstr ""
+
+#: framework/customizer/settings/singular-post-options.php:132
+msgid "Hide Post Tags from Full Post"
+msgstr ""
+
+#: framework/customizer/settings/singular-post-options.php:138
+msgid "Hide Author Bio Box"
+msgstr ""
+
+#: framework/customizer/settings/singular-post-options.php:144
+msgid "Do not Underline the Links within the Content"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:19
+msgid "Social Links Options"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:29
+msgid "Hide Footer Social + Login/Logout Buttons"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:30
+msgid ""
+"If you checked this option, all buttons will disappear from footer. There is "
+"no any effect from these option: \"Show Login/Logout Button in Footer\"."
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:36
+msgid "Show Login/Logout Button in Footer"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:37
+msgid ""
+"This option has no effect if you checked the option: \"Hide Footer Social + "
+"Login/Logout Buttons\""
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:41
+msgid "X URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:42
+msgid "Facebook URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:43
+msgid "Threads URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:44
+msgid "Pinterest URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:45
+msgid "Linkedin URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:46
+msgid "Instagram URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:47
+msgid "VK URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:48
+msgid "Flickr URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:49
+msgid "Youtube URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:50
+msgid "Vimeo URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:51
+msgid "Soundcloud URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:52
+msgid "Messenger URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:53
+msgid "WhatsApp URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:54
+msgid "TikTok URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:55
+msgid "Lastfm URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:56
+msgid "Medium URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:57
+msgid "Github URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:58
+msgid "Bitbucket URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:59
+msgid "Tumblr URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:60
+msgid "Digg URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:61
+msgid "Delicious URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:62
+msgid "Stumbleupon URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:63
+msgid "Mix URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:64
+msgid "Reddit URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:65
+msgid "Dribbble URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:66
+msgid "Flipboard URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:67
+msgid "Blogger URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:68
+msgid "Etsy URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:69
+msgid "Behance URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:70
+msgid "Amazon URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:71
+msgid "Meetup URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:72
+msgid "Mixcloud URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:73
+msgid "Slack URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:74
+msgid "Snapchat URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:75
+msgid "Spotify URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:76
+msgid "Yelp URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:77
+msgid "WordPress URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:78
+msgid "Twitch URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:79
+msgid "Telegram URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:80
+msgid "Bandcamp URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:81
+msgid "Quora URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:82
+msgid "Foursquare URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:83
+msgid "DeviantArt URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:84
+msgid "IMDB URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:85
+msgid "Codepen URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:86
+msgid "JSFiddle URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:87
+msgid "Stack Overflow URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:88
+msgid "Stack Exchange URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:89
+msgid "BuySellAds URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:90
+msgid "500px URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:91
+msgid "Ello URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:92
+msgid "Discord URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:93
+msgid "Goodreads URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:94
+msgid "Odnoklassniki URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:95
+msgid "Houzz URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:96
+msgid "Pocket URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:97
+msgid "XING URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:98
+msgid "Mastodon URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:99
+msgid "Google Play URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:100
+msgid "SlideShare URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:101
+msgid "Dropbox URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:102
+msgid "PayPal URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:103
+msgid "Viadeo URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:104
+msgid "Wikipedia URL"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:105
+msgid "Skype Username"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:106
+msgid "Email Address"
+msgstr ""
+
+#: framework/customizer/settings/social-buttons-options.php:107
+msgid "RSS Feed URL"
+msgstr ""
+
+#: framework/customizer/settings/upgrade-to-pro-options.php:18
+msgid "Upgrade to Pro Version"
+msgstr ""
+
+#: framework/customizer/settings/upgrade-to-pro-options.php:32
+msgid "Color Options"
+msgstr ""
+
+#: framework/customizer/settings/upgrade-to-pro-options.php:33
+msgid "Font Options"
+msgstr ""
+
+#: framework/customizer/settings/upgrade-to-pro-options.php:34
+msgid "1-10 Columns Support for Posts Grids"
+msgstr ""
+
+#: framework/customizer/settings/upgrade-to-pro-options.php:35
+msgid "10+ Thumbnail Sizes Options for Posts Grids"
+msgstr ""
+
+#: framework/customizer/settings/upgrade-to-pro-options.php:36
+msgid "Switch between Masonry Grid (JavaScript based) and CSS only Grid"
+msgstr ""
+
+#: framework/customizer/settings/upgrade-to-pro-options.php:37
+msgid "Display Ads/Custom Contents between Posts in the Grid"
+msgstr ""
+
+#: framework/customizer/settings/upgrade-to-pro-options.php:38
+msgid "Switch between Boxed or Full Layout Type"
+msgstr ""
+
+#: framework/customizer/settings/upgrade-to-pro-options.php:39
+msgid "10+ Layout Styles for Posts/Pages"
+msgstr ""
+
+#: framework/customizer/settings/upgrade-to-pro-options.php:40
+msgid "10+ Layout Styles for Non-Singular Pages"
+msgstr ""
+
+#: framework/customizer/settings/upgrade-to-pro-options.php:41
+msgid "10+ Custom Page Templates"
+msgstr ""
+
+#: framework/customizer/settings/upgrade-to-pro-options.php:42
+msgid "10+ Custom Post Templates"
+msgstr ""
+
+#: framework/customizer/settings/upgrade-to-pro-options.php:43
+msgid "8 Header Layouts"
+msgstr ""
+
+#: framework/customizer/settings/upgrade-to-pro-options.php:44
+msgid "Footer with Layout Options (1/2/3/4/5/6 columns)"
+msgstr ""
+
+#: framework/customizer/settings/upgrade-to-pro-options.php:45
+msgid "Width Change Capability of Different Areas of the Website"
+msgstr ""
+
+#: framework/customizer/settings/upgrade-to-pro-options.php:46
+msgid ""
+"Capability to Add Different Header Images for Each Post/Page with Unique "
+"Link, Title and Description"
+msgstr ""
+
+#: framework/customizer/settings/upgrade-to-pro-options.php:47
+msgid ""
+"Grid Featured Posts Widget (Recent/Categories/Tags/PostIDs based) - with "
+"capability to display posts according to Likes/Views/Comments/Dates/... and "
+"there are many options"
+msgstr ""
+
+#: framework/customizer/settings/upgrade-to-pro-options.php:48
+msgid ""
+"List Featured Posts Widget (Recent/Categories/Tags/PostIDs based) - with "
+"capability to display posts according to Likes/Views/Comments/Dates/... and "
+"there are many options"
+msgstr ""
+
+#: framework/customizer/settings/upgrade-to-pro-options.php:49
+msgid ""
+"Tabbed Widget (Recent/Categories/Tags/PostIDs based) - with capability to "
+"display posts according to Likes/Views/Comments/Dates/... and there are many "
+"options."
+msgstr ""
+
+#: framework/customizer/settings/upgrade-to-pro-options.php:50
+msgid "About and Social Widget - 60+ Social Buttons"
+msgstr ""
+
+#: framework/customizer/settings/upgrade-to-pro-options.php:51
+msgid ""
+"News Ticker (Recent/Categories/Tags/PostIDs based) - It can display posts "
+"according to Likes/Views/Comments/Dates/... and there are many options."
+msgstr ""
+
+#: framework/customizer/settings/upgrade-to-pro-options.php:52
+msgid "Settings Panel to Control Options in Each Post"
+msgstr ""
+
+#: framework/customizer/settings/upgrade-to-pro-options.php:53
+msgid "Settings Panel to Control Options in Each Page"
+msgstr ""
+
+#: framework/customizer/settings/upgrade-to-pro-options.php:54
+msgid "Built-in Posts Views Counter"
+msgstr ""
+
+#: framework/customizer/settings/upgrade-to-pro-options.php:55
+msgid "Built-in Posts Likes System"
+msgstr ""
+
+#: framework/customizer/settings/upgrade-to-pro-options.php:56
+msgid "Built-in Infinite Scroll and Load More Button"
+msgstr ""
+
+#: framework/customizer/settings/upgrade-to-pro-options.php:57
+msgid ""
+"Post Share Buttons Styles with Options - 25+ Social Networks are Supported"
+msgstr ""
+
+#: framework/customizer/settings/upgrade-to-pro-options.php:58
+msgid ""
+"Related Posts (Categories/Tags/Author/PostIDs based) with Many Options - For "
+"both single posts and post summaries"
+msgstr ""
+
+#: framework/customizer/settings/upgrade-to-pro-options.php:59
+msgid "Sticky Menu/Sticky Sidebars with enable/disable capability"
+msgstr ""
+
+#: framework/customizer/settings/upgrade-to-pro-options.php:60
+msgid "Author Bio Box with Social Buttons - 60+ Social Buttons"
+msgstr ""
+
+#: framework/customizer/settings/upgrade-to-pro-options.php:61
+msgid "Ability to Enable/Disable Mobile View from Primary and Secondary Menus"
+msgstr ""
+
+#: framework/customizer/settings/upgrade-to-pro-options.php:62
+msgid "Post Navigation with Thumbnails"
+msgstr ""
+
+#: framework/customizer/settings/upgrade-to-pro-options.php:63
+msgid "Ability to add Ads under Post Title and under Post Content"
+msgstr ""
+
+#: framework/customizer/settings/upgrade-to-pro-options.php:64
+msgid "Ability to Disable Google Fonts - for faster loading"
+msgstr ""
+
+#: framework/customizer/settings/upgrade-to-pro-options.php:65
+msgid "Ability to Disable Post Format Views - for faster loading"
+msgstr ""
+
+#: framework/customizer/settings/upgrade-to-pro-options.php:66
+msgid "More Widget Areas"
+msgstr ""
+
+#: framework/customizer/settings/upgrade-to-pro-options.php:67
+msgid "Built-in Contact Form"
+msgstr ""
+
+#: framework/customizer/settings/upgrade-to-pro-options.php:68
+msgid "WooCommerce Compatible"
+msgstr ""
+
+#: framework/customizer/settings/upgrade-to-pro-options.php:69
+msgid "Yoast SEO Breadcrumbs Support"
+msgstr ""
+
+#: framework/customizer/settings/upgrade-to-pro-options.php:70
+msgid "Full RTL Language Support"
+msgstr ""
+
+#: framework/customizer/settings/upgrade-to-pro-options.php:71
+msgid "Search Engine Optimized"
+msgstr ""
+
+#: framework/customizer/settings/upgrade-to-pro-options.php:72
+msgid "Random Posts Button"
+msgstr ""
+
+#: framework/customizer/settings/upgrade-to-pro-options.php:73
+msgid "Many Useful Customizer Theme options"
+msgstr ""
+
+#: framework/customizer/settings/upgrade-to-pro-options.php:74
+msgid "More Features..."
+msgstr ""
+
+#: framework/customizer/settings/upgrade-to-pro-options.php:88
+msgid "MagSoul Pro"
+msgstr ""
+
+#: framework/customizer/settings/upgrade-to-pro-options.php:91
+msgid "Do you enjoy MagSoul? Upgrade to MagSoul Pro now and get:"
+msgstr ""
+
+#: framework/customizer/settings/upgrade-to-pro-options.php:91
+msgid "Upgrade To MagSoul PRO"
+msgstr ""
+
+#: framework/methods/ab-details-functions.php:22
+msgid "Author: "
+msgstr ""
+
+#: framework/methods/block-styles-functions.php:17
+msgid "GridBone Button"
+msgstr ""
+
+#: framework/methods/extra-functions.php:65
+msgid "Menu Close Button"
+msgstr ""
+
+#: framework/methods/extra-functions.php:65
+msgid "Close"
+msgstr ""
+
+#. translators: %s: post title.
+#: framework/methods/media-functions.php:21
+#: framework/methods/media-functions.php:48 template-parts/content-grid.php:22
+#: template-parts/content-grid.php:28 template-parts/content-grid.php:72
+#: template-parts/content-grid.php:74
+#, php-format
+msgid "Permanent Link to %s"
+msgstr ""
+
+#: framework/methods/menu-functions.php:78 functions.php:98
+msgid "Secondary Menu"
+msgstr ""
+
+#: framework/methods/navigation-functions.php:28
+msgid "Older posts"
+msgstr ""
+
+#: framework/methods/navigation-functions.php:28
+msgid "Newer posts"
+msgstr ""
+
+#: framework/methods/navigation-functions.php:30
+msgid "&larr; Newer posts"
+msgstr ""
+
+#: framework/methods/navigation-functions.php:30
+msgid "Older posts &rarr;"
+msgstr ""
+
+#: framework/methods/navigation-functions.php:41
+msgid "%title &rarr;"
+msgstr ""
+
+#: framework/methods/navigation-functions.php:41
+msgid "&larr; %title"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: framework/methods/postmeta-functions.php:18
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of tags.
+#: framework/methods/postmeta-functions.php:21
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#. translators: used between list items, there is a space
+#: framework/methods/postmeta-functions.php:31
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of categories.
+#: framework/methods/postmeta-functions.php:34
+#, php-format
+msgid "<span class=\"magsoul-sr-only\">Posted in </span>%1$s"
+msgstr ""
+
+#. translators: %s: post title
+#: framework/methods/postmeta-functions.php:52
+#: framework/methods/postmeta-functions.php:70
+#, php-format
+msgid "Leave a Comment<span class=\"magsoul-sr-only\"> on %s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: framework/methods/postmeta-functions.php:55
+#, php-format
+msgid "Edit<span class=\"magsoul-sr-only\"> %s</span>"
+msgstr ""
+
+#: framework/methods/share-buttons-functions.php:47
+msgid "Share this on X"
+msgstr ""
+
+#: framework/methods/share-buttons-functions.php:47
+#: framework/methods/social-buttons-functions.php:15
+msgid "X"
+msgstr ""
+
+#: framework/methods/share-buttons-functions.php:50
+msgid "Share this on Facebook"
+msgstr ""
+
+#: framework/methods/share-buttons-functions.php:50
+#: framework/methods/social-buttons-functions.php:17
+msgid "Facebook"
+msgstr ""
+
+#: framework/methods/share-buttons-functions.php:53
+msgid "Share this on Pinterest"
+msgstr ""
+
+#: framework/methods/share-buttons-functions.php:53
+#: framework/methods/social-buttons-functions.php:21
+msgid "Pinterest"
+msgstr ""
+
+#: framework/methods/share-buttons-functions.php:56
+msgid "Share this on Linkedin"
+msgstr ""
+
+#: framework/methods/share-buttons-functions.php:56
+#: framework/methods/social-buttons-functions.php:23
+msgid "Linkedin"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:15
+msgid "X Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:17
+msgid "Facebook Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:19
+msgid "Threads Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:19
+msgid "Threads"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:21
+msgid "Pinterest Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:23
+msgid "Linkedin Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:25
+msgid "Instagram Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:25
+msgid "Instagram"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:27
+msgid "Flickr Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:27
+msgid "Flickr"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:29
+msgid "Youtube Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:29
+msgid "Youtube"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:31
+msgid "Vimeo Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:31
+msgid "Vimeo"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:33
+msgid "SoundCloud Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:33
+msgid "SoundCloud"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:35
+msgid "Messenger Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:35
+msgid "Messenger"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:37
+msgid "WhatsApp Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:37
+msgid "WhatsApp"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:39
+msgid "TikTok Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:39
+msgid "TikTok"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:41
+msgid "Lastfm Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:41
+msgid "Lastfm"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:43
+msgid "Medium Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:43
+msgid "Medium"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:45
+msgid "Github Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:45
+msgid "Github"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:47
+msgid "Bitbucket Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:47
+msgid "Bitbucket"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:49
+msgid "Tumblr Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:49
+msgid "Tumblr"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:51
+msgid "Digg Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:51
+msgid "Digg"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:53
+msgid "Delicious Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:53
+msgid "Delicious"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:55
+msgid "Stumbleupon Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:55
+msgid "Stumbleupon"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:57
+msgid "Mix Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:57
+msgid "Mix"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:59
+msgid "Reddit Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:59
+msgid "Reddit"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:61
+msgid "Dribbble Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:61
+msgid "Dribbble"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:63
+msgid "Flipboard Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:63
+msgid "Flipboard"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:65
+msgid "Blogger Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:65
+msgid "Blogger"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:67
+msgid "Etsy Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:67
+msgid "Etsy"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:69
+msgid "Behance Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:69
+msgid "Behance"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:71
+msgid "Amazon Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:71
+msgid "Amazon"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:73
+msgid "Meetup Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:73
+msgid "Meetup"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:75
+msgid "Mixcloud Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:75
+msgid "Mixcloud"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:77
+msgid "Slack Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:77
+msgid "Slack"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:79
+msgid "Snapchat Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:79
+msgid "Snapchat"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:81
+msgid "Spotify Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:81
+msgid "Spotify"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:83
+msgid "Yelp Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:83
+msgid "Yelp"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:85
+msgid "WordPress Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:85
+msgid "WordPress"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:87
+msgid "Twitch Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:87
+msgid "Twitch"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:89
+msgid "Telegram Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:89
+msgid "Telegram"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:91
+msgid "Bandcamp Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:91
+msgid "Bandcamp"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:93
+msgid "Quora Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:93
+msgid "Quora"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:95
+msgid "Foursquare Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:95
+msgid "Foursquare"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:97
+msgid "DeviantArt Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:97
+msgid "DeviantArt"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:99
+msgid "IMDB Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:99
+msgid "IMDB"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:101
+msgid "VK Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:101
+msgid "VK"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:103
+msgid "Codepen Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:103
+msgid "Codepen"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:105
+msgid "JSFiddle Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:105
+msgid "JSFiddle"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:107
+msgid "Stack Overflow Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:107
+msgid "Stack Overflow"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:109
+msgid "Stack Exchange Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:109
+msgid "Stack Exchange"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:111
+msgid "BuySellAds Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:111
+msgid "BuySellAds"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:113
+msgid "500px Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:113
+msgid "500px"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:115
+msgid "Ello Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:115
+msgid "Ello"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:117
+msgid "Discord Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:117
+msgid "Discord"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:119
+msgid "Goodreads Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:119
+msgid "Goodreads"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:121
+msgid "Odnoklassniki Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:121
+msgid "Odnoklassniki"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:123
+msgid "Houzz Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:123
+msgid "Houzz"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:125
+msgid "Pocket Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:125
+msgid "Pocket"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:127
+msgid "XING Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:127
+msgid "XING"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:129
+msgid "Mastodon Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:129
+msgid "Mastodon"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:131
+msgid "Google Play Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:131
+msgid "Google Play"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:133
+msgid "SlideShare Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:133
+msgid "SlideShare"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:135
+msgid "Dropbox Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:135
+msgid "Dropbox"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:137
+msgid "PayPal Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:137
+msgid "PayPal"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:139
+msgid "Viadeo Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:139
+msgid "Viadeo"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:141
+msgid "Wikipedia Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:141
+msgid "Wikipedia"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:143
+msgid "Skype Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:143
+msgid "Skype"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:145
+msgid "Email Us Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:145
+msgid "Email Us"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:147
+msgid "RSS Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:147
+msgid "RSS"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:148
+msgid "Logout Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:148
+msgid "Logout"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:148
+msgid "Login / Register Button"
+msgstr ""
+
+#: framework/methods/social-buttons-functions.php:148
+msgid "Login / Register"
+msgstr ""
+
+#: framework/methods/widgets-loader-functions.php:17
+msgid "Top Full Width Widgets (Default HomePage)"
+msgstr ""
+
+#: framework/methods/widgets-loader-functions.php:18
+msgid ""
+"This full-width widget area is located after the header of your website. "
+"Widgets of this widget area are displayed on the default homepage of your "
+"website (when you are showing your latest posts on homepage)."
+msgstr ""
+
+#: framework/methods/widgets-loader-functions.php:26
+msgid "Top Full Width Widgets (Everywhere)"
+msgstr ""
+
+#: framework/methods/widgets-loader-functions.php:27
+msgid ""
+"This full-width widget area is located after the header of your website. "
+"Widgets of this widget area are displayed on every page of your website."
+msgstr ""
+
+#: framework/methods/widgets-loader-functions.php:35
+msgid "Bottom Full Width Widgets (Default HomePage)"
+msgstr ""
+
+#: framework/methods/widgets-loader-functions.php:36
+msgid ""
+"This full-width widget area is located before the footer of your website. "
+"Widgets of this widget area are displayed on the default homepage of your "
+"website (when you are showing your latest posts on homepage)."
+msgstr ""
+
+#: framework/methods/widgets-loader-functions.php:44
+msgid "Bottom Full Width Widgets (Everywhere)"
+msgstr ""
+
+#: framework/methods/widgets-loader-functions.php:45
+msgid ""
+"This full-width widget area is located before the footer of your website. "
+"Widgets of this widget area are displayed on every page of your website."
+msgstr ""
+
+#: framework/methods/widgets-loader-functions.php:53
+msgid "Single Post Bottom Widgets"
+msgstr ""
+
+#: framework/methods/widgets-loader-functions.php:54
+msgid ""
+"This widget area is located at the bottom of single post of any post type "
+"(except attachments and pages)."
+msgstr ""
+
+#: framework/methods/widgets-loader-functions.php:62
+msgid "Footer Top Widgets"
+msgstr ""
+
+#: framework/methods/widgets-loader-functions.php:63
+msgid "This widget area is located on the top of the footer of your website."
+msgstr ""
+
+#: framework/methods/widgets-loader-functions.php:71
+msgid "Footer 1 Widgets"
+msgstr ""
+
+#: framework/methods/widgets-loader-functions.php:72
+msgid "This widget area is the column 1 of the footer of your website."
+msgstr ""
+
+#: framework/methods/widgets-loader-functions.php:80
+msgid "Footer 2 Widgets"
+msgstr ""
+
+#: framework/methods/widgets-loader-functions.php:81
+msgid "This widget area is the column 2 of the footer of your website."
+msgstr ""
+
+#: framework/methods/widgets-loader-functions.php:89
+msgid "Footer 3 Widgets"
+msgstr ""
+
+#: framework/methods/widgets-loader-functions.php:90
+msgid "This widget area is the column 3 of the footer of your website."
+msgstr ""
+
+#: framework/methods/widgets-loader-functions.php:98
+msgid "Footer 4 Widgets"
+msgstr ""
+
+#: framework/methods/widgets-loader-functions.php:99
+msgid "This widget area is the column 4 of the footer of your website."
+msgstr ""
+
+#: framework/methods/widgets-loader-functions.php:107
+msgid "Footer Bottom Widgets"
+msgstr ""
+
+#: framework/methods/widgets-loader-functions.php:108
+msgid ""
+"This widget area is located on the bottom of the footer of your website."
+msgstr ""
+
+#: framework/methods/widgets-loader-functions.php:116
+msgid "404 Page Widgets"
+msgstr ""
+
+#: framework/methods/widgets-loader-functions.php:117
+msgid "This widget area is located on the 404(not found) page of your website."
+msgstr ""
+
+#: functions.php:97 header.php:73
+msgid "Primary Menu"
+msgstr ""
+
+#: header.php:24
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:82
+msgid "Search"
+msgstr ""
+
+#: header.php:103
+msgid "Close Search"
+msgstr ""
+
+#: searchform.php:14
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:15
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: searchform.php:17
+msgctxt "submit button"
+msgid "&#xf002;"
+msgstr ""
+
+#. translators: %s: post title
+#: template-parts/content-grid.php:35
+#, php-format
+msgid "0 Comment<span class=\"magsoul-sr-only\"> on %s</span>"
+msgstr ""
+
+#. translators: %s: post title
+#: template-parts/content-grid.php:37
+#, php-format
+msgid "0<span class=\"magsoul-sr-only\"> Comment on %s</span>"
+msgstr ""
+
+#. translators: %s: post title
+#: template-parts/content-grid.php:37
+#, php-format
+msgid "1<span class=\"magsoul-sr-only\"> Comment on %s</span>"
+msgstr ""
+
+#. translators: %s: post title
+#: template-parts/content-grid.php:37
+#, php-format
+msgid "%1$s<span class=\"magsoul-sr-only\"> Comments on %2$s</span>"
+msgstr ""
+
+#: template-parts/content-none.php:18
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:30
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:43
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:49
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-page.php:48 template-parts/content-single.php:56
+#, php-format
+msgid ""
+"Continue reading<span class=\"magsoul-sr-only\"> \"%s\"</span> <span class="
+"\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: template-parts/content-page.php:59 template-parts/content-single.php:67
+msgid "Pages:"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-page.php:75
+#, php-format
+msgid "Edit <span class=\"magsoul-sr-only\">%s</span>"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "MagSoul"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://themesdna.com/magsoul-wordpress-theme/"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ThemesDNA"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://themesdna.com/"
+msgstr ""

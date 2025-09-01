@@ -1,0 +1,267 @@
+/*
+ * Theme Name: MagSoul RTL CSS
+ * Description: Adds support for languages written in a Right To Left (RTL) direction.
+ */
+
+body{direction:rtl;unicode-bidi:embed;}
+
+/* Typography & Elements
+-------------------------------------------------------------- */
+blockquote{text-align:right;}
+blockquote cite{text-align:right;}
+ul,ol{margin:0 2em 1.5em 0;}
+li > ul,li > ol{margin-left:0;margin-right:1em;}
+dd{margin:0 1.5em 1.5em;}
+th,td,caption{padding:4px 5px 4px 10px;}
+
+/* Forms
+-------------------------------------------------------------- */
+textarea{padding-right:3px;}
+
+/* Layout
+-------------------------------------------------------------- */
+.magsoul-content-wrapper{-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-webkit-flex-direction:row-reverse;-moz-box-orient:horizontal;-moz-box-direction:reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse;}
+
+/* Primary Menu
+-------------------------------------------------------------- */
+.magsoul-primary-nav-menu li{text-align:right;float:right;}
+.magsoul-primary-nav-menu .sub-menu,.magsoul-primary-nav-menu .children{left:0;right:-9999px;}
+.magsoul-primary-nav-menu .sub-menu .sub-menu,.magsoul-primary-nav-menu .children .children{margin:-47px 189px 0 0}
+.magsoul-primary-nav-menu li:hover > .sub-menu,.magsoul-primary-nav-menu li:hover > .children,.magsoul-primary-nav-menu li.magsoul-focus > .sub-menu,.magsoul-primary-nav-menu li.magsoul-focus > .children{right:auto;}
+.magsoul-primary-responsive-menu-icon{margin:0;text-align:right;}
+.magsoul-primary-responsive-menu-icon::before{margin:0 0 0 0px;}
+.magsoul-primary-nav-menu{-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-webkit-flex-direction:row-reverse;-moz-box-orient:horizontal;-moz-box-direction:reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse;}
+@media only screen and (min-width: 1113px) {
+.magsoul-primary-nav-menu > li.menu-item-has-children > a:after{margin-left:0;margin-right:8px;}
+.magsoul-primary-nav-menu .sub-menu li.menu-item-has-children > a:after,.magsoul-primary-nav-menu .children li.menu-item-has-children > a:after{margin-left:0;margin-right:8px;right:auto;left:8px;}
+}
+@media only screen and (max-width: 1112px) {
+.magsoul-primary-mobile-menu-inactive .magsoul-primary-nav-menu > li.menu-item-has-children > a:after{margin-left:0;margin-right:8px;}
+.magsoul-primary-mobile-menu-inactive .magsoul-primary-nav-menu .sub-menu li.menu-item-has-children > a:after,.magsoul-primary-mobile-menu-inactive .magsoul-primary-nav-menu .children li.menu-item-has-children > a:after{margin-left:0;margin-right:8px;right:auto;left:8px;}
+}
+@media only screen and (max-width: 1112px) {
+.magsoul-primary-mobile-menu-active .magsoul-nav-primary{float:none;}
+.magsoul-primary-mobile-menu-active .magsoul-primary-nav-menu li{float:none;}
+.magsoul-primary-mobile-menu-active .magsoul-primary-nav-menu.magsoul-primary-responsive-menu .menu-item-has-children > a,.magsoul-primary-mobile-menu-active .magsoul-primary-nav-menu.magsoul-primary-responsive-menu .page_item_has_children > a{margin-right:0;margin-left:50px;}
+.magsoul-primary-mobile-menu-active .magsoul-primary-nav-menu.magsoul-primary-responsive-menu > .menu-item-has-children:before,.magsoul-primary-mobile-menu-active .magsoul-primary-nav-menu.magsoul-primary-responsive-menu > .page_item_has_children:before{float:left;right:auto;left:0;text-align:left;}
+.magsoul-primary-mobile-menu-active .magsoul-primary-nav-menu.magsoul-primary-responsive-menu > li > .sub-menu,.magsoul-primary-mobile-menu-active .magsoul-primary-nav-menu.magsoul-primary-responsive-menu > li > .children{margin:0;padding:0;left:0;right:-9999px;}
+.magsoul-primary-mobile-menu-active .magsoul-primary-nav-menu.magsoul-primary-responsive-menu > li.magsoul-focus > .sub-menu,.magsoul-primary-mobile-menu-active .magsoul-primary-nav-menu.magsoul-primary-responsive-menu > li.magsoul-focus > .children{right:auto;}
+.magsoul-primary-mobile-menu-active .magsoul-primary-nav-menu.magsoul-primary-responsive-menu > li > .sub-menu.magsoul-submenu-toggle,.magsoul-primary-mobile-menu-active .magsoul-primary-nav-menu.magsoul-primary-responsive-menu > li > .children.magsoul-submenu-toggle{right:auto;}
+.magsoul-primary-mobile-menu-active .magsoul-primary-nav-menu.magsoul-primary-responsive-menu .sub-menu,.magsoul-primary-mobile-menu-active .magsoul-primary-nav-menu.magsoul-primary-responsive-menu .children{right:auto;margin:0;}
+.magsoul-primary-mobile-menu-active .magsoul-primary-nav-menu.magsoul-primary-responsive-menu .sub-menu .sub-menu,.magsoul-primary-mobile-menu-active .magsoul-primary-nav-menu.magsoul-primary-responsive-menu .children .children{margin:0;padding-left:0;padding-right:15px;}
+}
+.magsoul-primary-menu-mobile-button{left:auto;right:5px;}
+.magsoul-search-mobile-button{right:auto;left:5px;}
+.magsoul-search-mobile-btn{text-align:right;}
+
+/* Secondary Menu
+-------------------------------------------------------------- */
+.magsoul-secondary-nav-menu li{text-align:right;float:right;}
+.magsoul-secondary-nav-menu .sub-menu,.magsoul-secondary-nav-menu .children{left:0;right:-9999px;}
+.magsoul-secondary-nav-menu .sub-menu .sub-menu,.magsoul-secondary-nav-menu .children .children{margin:-39px 189px 0 0}
+.magsoul-secondary-nav-menu li:hover > .sub-menu,.magsoul-secondary-nav-menu li:hover > .children,.magsoul-secondary-nav-menu li.magsoul-focus > .sub-menu,.magsoul-secondary-nav-menu li.magsoul-focus > .children{right:auto;}
+.magsoul-secondary-responsive-menu-icon{text-align:right;margin:0;}
+.magsoul-secondary-responsive-menu-icon::before{margin:0 0 0 6px;}
+@media only screen and (min-width: 1113px) {
+.magsoul-secondary-nav-menu > li.menu-item-has-children > a:after{margin-left:0;margin-right:8px;}
+.magsoul-secondary-nav-menu .sub-menu li.menu-item-has-children > a:after,.magsoul-secondary-nav-menu .children li.menu-item-has-children > a:after{margin-left:0;margin-right:8px;right:auto;left:8px;}
+}
+@media only screen and (max-width: 1112px) {
+.magsoul-secondary-mobile-menu-inactive .magsoul-secondary-nav-menu > li.menu-item-has-children > a:after{margin-left:0;margin-right:8px;}
+.magsoul-secondary-mobile-menu-inactive .magsoul-secondary-nav-menu .sub-menu li.menu-item-has-children > a:after,.magsoul-secondary-mobile-menu-inactive .magsoul-secondary-nav-menu .children li.menu-item-has-children > a:after{margin-left:0;margin-right:8px;right:auto;left:8px;}
+}
+@media only screen and (max-width: 1112px) {
+.magsoul-secondary-mobile-menu-active .magsoul-secondary-nav-menu li{float:none}
+.magsoul-secondary-mobile-menu-active .magsoul-secondary-nav-menu.magsoul-secondary-responsive-menu .menu-item-has-children > a,.magsoul-secondary-mobile-menu-active .magsoul-secondary-nav-menu.magsoul-secondary-responsive-menu .page_item_has_children > a{margin-right:0;margin-left:50px;}
+.magsoul-secondary-mobile-menu-active .magsoul-secondary-nav-menu.magsoul-secondary-responsive-menu > .menu-item-has-children:before,.magsoul-secondary-mobile-menu-active .magsoul-secondary-nav-menu.magsoul-secondary-responsive-menu > .page_item_has_children:before{float:left;right:auto;left:0;text-align:left;}
+.magsoul-secondary-mobile-menu-active .magsoul-secondary-nav-menu.magsoul-secondary-responsive-menu > li > .sub-menu,.magsoul-secondary-mobile-menu-active .magsoul-secondary-nav-menu.magsoul-secondary-responsive-menu > li > .children{margin:0;padding:0;left:0;right:-9999px;}
+.magsoul-secondary-mobile-menu-active .magsoul-secondary-nav-menu.magsoul-secondary-responsive-menu > li.magsoul-focus > .sub-menu,.magsoul-secondary-mobile-menu-active .magsoul-secondary-nav-menu.magsoul-secondary-responsive-menu > li.magsoul-focus > .children{right:auto;}
+.magsoul-secondary-mobile-menu-active .magsoul-secondary-nav-menu.magsoul-secondary-responsive-menu > li > .sub-menu.magsoul-submenu-toggle,.magsoul-secondary-mobile-menu-active .magsoul-secondary-nav-menu.magsoul-secondary-responsive-menu > li > .children.magsoul-submenu-toggle{right:auto;}
+.magsoul-secondary-mobile-menu-active .magsoul-secondary-nav-menu.magsoul-secondary-responsive-menu .sub-menu,.magsoul-secondary-mobile-menu-active .magsoul-secondary-nav-menu.magsoul-secondary-responsive-menu .children{right:auto;margin:0;}
+.magsoul-secondary-mobile-menu-active .magsoul-secondary-nav-menu.magsoul-secondary-responsive-menu .sub-menu .sub-menu,.magsoul-secondary-mobile-menu-active .magsoul-secondary-nav-menu.magsoul-secondary-responsive-menu .children .children{margin:0;padding-left:0;padding-right:15px;}
+}
+
+/* Header
+-------------------------------------------------------------- */
+.magsoul-header-inside-container{-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-moz-box-orient:horizontal;-moz-box-direction:normal;-ms-flex-direction:row;flex-direction:row;}
+
+.magsoul-header-style-logo-search-menu .magsoul-header-layout-logo{text-align:right;}
+.magsoul-header-style-logo-search-menu .magsoul-header-layout-logo-inside{margin:5px 0 5px 15px;}
+.magsoul-header-style-logo-search-menu .magsoul-header-layout-search-inside{margin:0 0 0 10px;}
+
+@media only screen and (max-width: 1112px) {
+.magsoul-logo-img{margin:0;}
+
+.magsoul-header-style-logo-search-menu .magsoul-header-layout-logo{text-align:right;}
+.magsoul-header-style-logo-search-menu .magsoul-header-layout-logo-inside{margin:5px 0 10px 0;}
+.magsoul-header-style-logo-search-menu .magsoul-header-layout-search-inside{margin:10px 0 10px 0;}
+.magsoul-header-style-logo-search-menu.magsoul-primary-mobile-menu-inactive .magsoul-header-layout-menu .magsoul-nav-primary{float:none;}
+.magsoul-header-style-logo-search-menu.magsoul-primary-mobile-menu-inactive .magsoul-primary-nav-menu{-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-moz-box-orient:horizontal;-moz-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:start;-webkit-justify-content:flex-start;-moz-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;}
+}
+
+.magsoul-header-image-info{text-align:right;}
+
+.magsoul-logo-beside-title .site-branding-full{-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-moz-box-orient:horizontal;-moz-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:start;-webkit-justify-content:flex-start;-moz-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;}
+.magsoul-logo-beside-title .site-branding-full .magsoul-custom-logo-image{margin-right:0;margin-left:15px;}
+.magsoul-logo-beside-title .site-branding-full .magsoul-custom-logo-info{margin-top:0;text-align:right;}
+@media only screen and (max-width: 1112px) {
+.magsoul-logo-beside-title .site-branding-full{-webkit-box-pack:start;-webkit-justify-content:flex-start;-moz-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;}
+.magsoul-custom-logo-active.magsoul-logo-beside-title .magsoul-header-layout-logo{text-align:right;}
+}
+@media only screen and (max-width: 1112px) {
+.magsoul-primary-menu-active.magsoul-primary-mobile-menu-active .magsoul-logo-info{padding:0 50px;}
+.magsoul-custom-logo-active.magsoul-logo-above-title .magsoul-logo-info{padding:0 !important;}
+.magsoul-custom-logo-active.magsoul-logo-beside-title .magsoul-logo-info{padding:0 0 0 50px !important;}
+}
+@media only screen and (max-width: 599px) {
+.magsoul-custom-logo-active.magsoul-logo-beside-title .magsoul-logo-info{padding:0 !important;}
+}
+
+/* Posts & Pages
+-------------------------------------------------------------- */
+.magsoul-page-header{text-align:right;}
+.magsoul-page-header-inside{padding:0;}
+.taxonomy-description{text-align:right;}
+
+.magsoul-entry-meta-single{text-align:right;}
+.magsoul-entry-meta-single-cats{margin:0 0 0 10px;}
+.magsoul-entry-meta-single-author{margin:0 0 0 10px;}
+.magsoul-entry-meta-single-date{margin:0 0 0 10px;}
+.magsoul-entry-meta-single-comments{margin:0 0 0 10px;}
+
+.entry-header{text-align:right;}
+.entry-title{text-align:right;}
+
+.entry-content table tr th{border-right:none;border-left:1px solid #444;}
+.entry-content table tr th:last-child{border-left:none;}
+.entry-content table tr td{border-right:none;border-left:1px solid #eee;}
+.entry-content table tr td:last-child{border-left:none;}
+
+.magsoul-entry-footer{text-align:right;}
+.magsoul-entry-footer .magsoul-tags-links{text-align:right;}
+
+
+/* =Page Links
+----------------------------------------------- */
+.page-links > span,.page-links > a{float:right;border-right:1px solid #dadada !important;}
+.page-links span.page-links-title{border-right:0 !important;}
+
+/* Posts/Post Navigation
+-------------------------------------------------------------- */
+.navigation.posts-navigation .nav-links .nav-previous a:after{margin-left:0;margin-right:6px;}
+.navigation.posts-navigation .nav-links .nav-next a:before{margin-right:0;margin-left:6px;}
+.nav-previous{float:left;text-align:left;}
+.nav-next{float:right;text-align:right;}
+.navigation.post-navigation .nav-previous{float:left;text-align:left;}
+.navigation.post-navigation .nav-next{float:right;text-align:right;}
+@media only screen and (max-width: 599px) {
+.navigation.post-navigation .nav-previous{float:none;text-align:center;}
+.navigation.post-navigation .nav-next{float:none;text-align:center;}
+}
+.navigation.pagination{text-align:right;}
+.magsoul-post-navigation-content{-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-webkit-flex-direction:row-reverse;-moz-box-orient:horizontal;-moz-box-direction:reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse;}
+
+/* WP-PageNavi
+-------------------------------------------------------------- */
+.wp-pagenavi{text-align:right;}
+
+/* Tag Cloud Widget
+-------------------------------------------------------------- */
+.widget_tag_cloud a{margin:0 0 5px 5px;}
+
+/* Calendar
+-------------------------------------------------------------- */
+#wp-calendar caption{text-align:left;padding:10px 0 0 10px;}
+#wp-calendar tbody td{text-align:right;}
+#wp-calendar tfoot #next{text-align:left;}
+#wp-calendar thead th{padding-bottom:10px;text-align:right;}
+
+/* Alignments
+-------------------------------------------------------------- */
+.alignleft{float:right;margin:0 0 10px 10px;}
+.alignright{float:left;margin:0 10px 10px 0;}
+
+/* Captions
+-------------------------------------------------------------- */
+.wp-caption{text-align:right;}
+
+/* Comments
+-------------------------------------------------------------- */
+.comment-respond #cancel-comment-reply-link{margin-left:0;margin-right:1em;}
+.comment-form label{padding-right:0;padding-left:1em;}
+.comments-area > ol{margin:0;}
+.comment .edit-link,.pingback .edit-link{float:left;}
+.comment .comment-meta .comment-author .avatar{float:right;margin-right:0;margin-left:1em;}
+#respond input[type=text],textarea{padding:3px 3px 3px 0;margin:5px 0 3px 1px;}
+#respond input[type=text]:focus,#respond input[type=text]:active,textarea:focus,textarea:active{margin:5px 0 3px 1px;}
+.comment-form-cookies-consent label{padding-left:0;padding-right:10px;}
+
+/* Sidebar
+-------------------------------------------------------------- */
+.magsoul-sidebar-widget-areas .widget .magsoul-widget-title{}
+.magsoul-sidebar-widget-areas .widget .magsoul-widget-title i{right:auto;left:5px;}
+.magsoul-sidebar-widget-areas .widget ol{padding:0 1.2em 0 0;}
+.magsoul-sidebar-widget-areas .widget li{padding:6px 0px 6px 0px;}
+.magsoul-sidebar-widget-areas .widget li li{padding:6px 10px 6px 0;}
+
+/* Footer
+-------------------------------------------------------------- */
+#magsoul-footer-blocks .widget ol{padding:0 1.2em 0 0;}
+#magsoul-footer-blocks .widget li{padding:6px 0 6px 0;}
+#magsoul-footer-blocks .widget li li{padding:8px 10px 8px 0;}
+
+.magsoul-footer-block-cols{-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-webkit-flex-direction:row-reverse;-moz-box-orient:horizontal;-moz-box-direction:reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse;}
+
+/* Copyright
+-------------------------------------------------------------- */
+.magsoul-copyright-area-block{margin-right:0;margin-left:30px;}
+.magsoul-copyright-area-block:last-child{margin-left:0;}
+@media only screen and (max-width: 768px) {
+.magsoul-copyright-area-block{text-align:right;margin-left:0;}
+}
+
+/* Search Widget
+-------------------------------------------------------------- */
+.magsoul-search-overlay{left:auto;right:0;}
+.magsoul-search-overlay .magsoul-search-closebtn{right:auto;left:45px;}
+.magsoul-search-overlay input[type=text]{float:right;}
+input.magsoul-search-submit{right:auto;left:0;}
+
+/* Footer Social Icons ----------------------------------------------- */
+.magsoul-social-icons{}
+
+/* Featured Posts Area Widgets
+-------------------------------------------------------------- */
+.magsoul-featured-posts-area .widget .magsoul-widget-title{text-align:right;}
+.magsoul-featured-posts-area .widget .magsoul-widget-title i{right:auto;left:5px;}
+.magsoul-featured-posts-area .widget ol{padding:0 1.2em 0 0;}
+.magsoul-featured-posts-area .widget li{padding:6px 0px 6px 0px;}
+.magsoul-featured-posts-area .widget li li{padding:6px 10px 6px 0;}
+
+/* Grid
+-------------------------------------------------------------- */
+.magsoul-grid-post .magsoul-grid-post-title{text-align:right;}
+.magsoul-grid-post-footer{text-align:right;}
+.magsoul-grid-post-header{text-align:right;}
+.magsoul-grid-post-header-meta{margin-right:0;margin-left:6px;}
+.magsoul-grid-post-header-meta:last-child{margin-left:0;float:left;}
+.magsoul-grid-post-details{text-align:right;}
+
+/* Share Buttons
+-------------------------------------------------------------- */
+.magsoul-share-buttons{text-align:right;}
+.magsoul-share-buttons a{margin:0 2px 6px 4px;text-align:right;}
+.magsoul-share-buttons a i{margin-right:0;margin-left:5px;}
+
+/* Author Bio Box
+-------------------------------------------------------------- */
+.magsoul-author-bio-gravatar{float:right;margin:0 0 5px 12px;}
+.magsoul-author-bio .magsoul-author-bio-social{text-align:right;}
+.magsoul-author-bio .magsoul-author-bio-social a{margin:0 0 3px 4px;}
+.magsoul-author-bio .magsoul-author-bio-social a i{margin-right:0;margin-left:1px;}
+
+/* Scroll to Top Button
+-------------------------------------------------------------- */
+.magsoul-scroll-top{right:auto;left:20px;}
+
+.magsoul-text-center{text-align:right;}

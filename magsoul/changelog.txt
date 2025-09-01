@@ -1,0 +1,18 @@
+= Version 1.0.0 =
+* Initial Release
+
+= Version 1.0.1 =
+* Fixed coding issues.
+* Theme Customizer updated.
+* Google font links are updated.
+
+= Version 1.0.2 =
+* Fixed coding issues.
+* Theme Customizer updated.
+
+= Version 1.0.3 =
+* Fixed coding issues.
+* Theme Customizer updated.
+
+= Version 1.0.4 =
+* Fixed coding issues
